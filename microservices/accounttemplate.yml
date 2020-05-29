@@ -145,9 +145,9 @@ objects:
           type: ImageChange
         - type: ConfigChange
 parameters:
-  - description: The name assigned to all of the frontend objects defined in this template.
-    displayName: Name
-    name: NAME
-  - description: The OpenShift Namespace where the ImageStream resides.
-    displayName: Namespace
-    name: NAMESPACE
+- description: The name assigned to all of the frontend objects defined in this template.
+  displayName: Name
+  name: NAME
+- description: The OpenShift Namespace where the ImageStream resides.
+  displayName: Namespace
+  name: NAMESPACE
